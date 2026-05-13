@@ -250,6 +250,9 @@ and with Significance greater than:
     aladin.setOverlayImageLayer('CDS/P/SPITZER/color'); // https://alasky.cds.unistra.fr/Spitzer/SpitzerI1I2I4color/
     aladin.getOverlayImageLayer().setAlpha(0.5)
     
+    aladin.setOverlayImageLayer('https://yichaolin-astro.github.io/HESS-J1702-420A/HESS_J1702_420A_Skymap/'); // https://alasky.cds.unistra.fr/Spitzer/SpitzerI1I2I4color/
+    aladin.getOverlayImageLayer().setAlpha(0.5)
+    
     var overlay = A.graphicOverlay({color: 'white', lineWidth: 3});
         aladin.addOverlay(overlay);
         overlay.addFootprints([
